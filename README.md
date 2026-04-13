@@ -63,7 +63,11 @@ Added greeting.wav folder
 Final Commit
 Finalized code structure and logic
 
+
 Fixed greeting audio: converted from .m4a to proper .wav format
+
+
+<img width="639" height="306" alt="Snipping of C# success" src="https://github.com/user-attachments/assets/1d3cabc9-69ea-429b-a47f-6d0cf652f64d" />
 
 
 👨‍💻 AUTHOR
