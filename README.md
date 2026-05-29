@@ -69,9 +69,6 @@ Fixed greeting audio: converted from .m4a to proper .wav format
 
 <img width="639" height="306" alt="Snipping of C# success" src="https://github.com/user-attachments/assets/1d3cabc9-69ea-429b-a47f-6d0cf652f64d" />
 
-
-👨‍💻 AUTHOR
-
 Part 2 – Work Done
 Enhancements Implemented
 Integrated Windows Forms interface for a more interactive experience.
@@ -103,4 +100,9 @@ Validated exception handling for empty input and invalid commands.
 
 Outcome
 The chatbot now runs smoothly with both visual and auditory feedback, providing an engaging way to learn cybersecurity concepts interactively.
+
+Part 1 amendments:
+Added CI Workflow 
+
+👨‍💻 AUTHOR
 Developed by Naeem Meyer as part of a cybersecurity awareness project.
