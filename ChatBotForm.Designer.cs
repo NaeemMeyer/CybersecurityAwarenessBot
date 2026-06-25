@@ -36,8 +36,10 @@ namespace ST10468609_Mogamat_Naeem_Meyer_PROG6221
             // 
             this.lstChat.BackColor = System.Drawing.Color.Black;
             this.lstChat.ForeColor = System.Drawing.Color.White;
+            this.lstChat.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Regular);
             this.lstChat.FormattingEnabled = true;
-            this.lstChat.ItemHeight = 15;
+            this.lstChat.HorizontalScrollbar = true;
+            this.lstChat.ItemHeight = 17;
             this.lstChat.Location = new System.Drawing.Point(15, 120);
             this.lstChat.Name = "lstChat";
             this.lstChat.Size = new System.Drawing.Size(600, 274);
@@ -62,6 +64,7 @@ namespace ST10468609_Mogamat_Naeem_Meyer_PROG6221
             // 
             // ChatBotForm
             // 
+            this.AcceptButton = this.btnSend;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(640, 450);
@@ -69,7 +72,10 @@ namespace ST10468609_Mogamat_Naeem_Meyer_PROG6221
             this.Controls.Add(this.txtUserInput);
             this.Controls.Add(this.lstChat);
             this.Controls.Add(this.lblLogo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "ChatBotForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cybersecurity Awareness Bot";
             this.Load += new System.EventHandler(this.ChatBotForm_Load);
             this.ResumeLayout(false);
